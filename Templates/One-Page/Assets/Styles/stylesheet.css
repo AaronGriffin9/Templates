@@ -1,0 +1,140 @@
+a.fa{
+  text-decoration: none;
+  vertical-align: middle
+}
+.bg{
+  background-image: url("../Images/bg.jpg");
+  height: 500px;
+}
+.fa-facebook{
+  font-size: 27px;
+  background-color: rgb(57,86,156);
+  color: white;
+  padding: 4px 3px 0px 11px;
+}
+.fa-facebook:hover{
+  background-color: rgb(57,86,156);
+  color: white;
+}
+.fa-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+}
+.fa-twitter{
+  padding: 5px 5px 5px 5px;
+  color: white;
+  background-color: RGB(29,161,242);
+  font-size: 20px;
+}
+.fa-twitter:hover{
+  color: white;
+  background-color: RGB(29,161,242);
+}
+.nav-item{
+  background-color: #E8E6E6;
+}
+.nav-item .nav-link{
+  color: black;
+}
+.nav-item .nav-link:hover{
+  background-color: #767676;
+  color: white;
+}
+.brand{
+  color: #767676;
+}
+.color{
+  background-color: #C7C7C7;
+}
+.company-detail{
+  display: inline-block;
+}
+.line{
+  border-width: thin;
+  text-align: left;
+  background-color: #767676;
+  margin-left: 0;
+}
+.card{
+  border: none;
+  box-shadow: 0px 0px 10px 1px gray;
+}
+.btn-primary{
+  background-color: #373B4D;
+}
+.btn-primary:hover{
+  background-color: #373B4D;
+}
+.btn-position{
+  float: right;
+}
+#map{
+  width: 1200px;
+  height: 600px;
+}
+@media (min-width: 319px) and (max-width: 768px){
+  .brand{
+    font-size: 25px;
+  }
+  .fa-facebook{
+    font-size: 20px;
+  }
+  .fa-instagram{
+    font-size: 27px;
+  }
+  .fa-twitter{
+    font-size: 15px;
+  }
+  .navbar-toggler{
+    font-size: 10px;
+  }
+  .mobile-position{
+    align-items: center;
+    text-align: center;
+  }
+  .line{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #map{
+    width: 550px;
+    height: 300px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px){
+  .brand{
+    font-size: 25px;
+  }
+  .fa-facebook{
+    font-size: 20px;
+  }
+  .fa-instagram{
+    font-size: 27px;
+  }
+  .fa-twitter{
+    font-size: 15px;
+  }
+  .navbar-toggler{
+    font-size: 10px;
+  }
+  .mobile-position{
+    align-items: center;
+    text-align: center;
+  }
+  .line{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #map{
+    width: 700px;
+    height: 350px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px){
+  #map{
+    width: 900px;
+  }
+}
